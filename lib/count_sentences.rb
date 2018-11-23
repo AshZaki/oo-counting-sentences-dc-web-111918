@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-    sentences = self.split(/\?|\.|!/).reject {|a,b| b.empty?}
-      binding.pry
-      return sentences
+    sentences = self.split(/\?|\.|!/).reject {|string| string.empty?}
+    return sentences.length
   end
 end
