@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/\?|\.|!/).map do |word|
-      word.split
+    self.split(/\?|\.|!/).
       binding.pry
   end
  end
