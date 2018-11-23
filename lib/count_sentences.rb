@@ -18,6 +18,5 @@ class String
     sentences = self.split(/\?|\.|!/).reject {|a,b| b.empty?}
       binding.pry
       return sentences
-    end
   end
 end
